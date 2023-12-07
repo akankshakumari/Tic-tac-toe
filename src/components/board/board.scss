@@ -1,0 +1,10 @@
+.board-container {
+    position: relative;
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        position: absolute;
+        left: 40%;
+    }
+}
